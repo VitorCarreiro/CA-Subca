@@ -1,6 +1,6 @@
 # CA-Subca 
 
-"Easyrsa_root=#" = The machine your root CA
+"Easyrsa_root=#" = The machine your using to do root CA
 
 "Easyrsa_subca=#" = The machine your using to do sub-CA
 
