@@ -28,7 +28,15 @@ Easyrsa_subca=# ./easyrsa build-ca nopass subca
 
 **Change sub name**
 
-`cp /etc/easy-rsa/pki/issued/sub.crt`
+Easyrsa_subca=# `cp /etc/easy-rsa/pki/issued/sub.crt /etc/easy-rsa/pki/issued/ca.crt`
+
+**Now copy the ca.crt to the /etc/easy-rsa/pki folder**
+
+Easyrsa_subca=# `cp /etc/easy-rsa/pki/issued/ca.crt /etc/easy-rsa/pki/.`
+
+**Chain the certificates**
+
+**You have to copy the ca.crt of your root-ca to your ca.crt of subca**
 
 **And that's it you can now create your on certificates** 😄
 
