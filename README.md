@@ -1,6 +1,7 @@
 # CA-Subca 
 
 "Easyrsa_root=#" = The machine your root CA
+
 "Easyrsa_subca=#" = The machine your using to do sub-CA
 
 **Build your root CA**
@@ -29,7 +30,7 @@ Easyrsa_subca=# ./easyrsa build-ca nopass subca
 
 `cp /etc/easy-rsa/pki/issued/sub.crt`
 
-**And that's it you can now create your on certificates**
+**And that's it you can now create your on certificates** 😄
 
 
 
